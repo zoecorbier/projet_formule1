@@ -1,0 +1,28 @@
+* {
+	width: 120px, 60%;
+	padding: 3px;
+	margin: 2px;
+	background-color: #696969;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#Un {
+border-width: 5px;
+border-style: solid;
+color: #00FFFF;
+text-transform: capitalize;
+font-weight: bold;
+
+}
+
+#Deux{
+	border-width: 1px;
+	text-align: right;
+	color: #00FFFF;
+	border-style: inset;
+	
+}
+
+#Trois{
+	width: 100px, 50%;
