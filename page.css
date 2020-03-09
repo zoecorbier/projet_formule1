@@ -2,9 +2,12 @@
 	width: 120px, 60%;
 	padding: 3px;
 	margin: 2px;
-	background-color: #141313;
-	color: #FFFFFF;
+	background-color: #A9A9A9;
+	color:#000000;
 	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #Un {
@@ -29,9 +32,42 @@ font-weight: bold;
 }
 
 #Quizz{
-	text-align: left;
-	height: 30%;
+	font-weight: bold;
+	width: 150px;
+	padding-top: 0px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: #DCDCDC;
+
+	
+
+
+}
+	
+
+#Rens{
+	font-weight: bold;
+	border-style: solid;
+	width: 150px;
+	padding-top: 0px;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: #DCDCDC;
 	
 	
 }
+
+#fin{
+	font-weight: bold;
+	border-style: solid;
+	width: 150px;
+	padding-top: 0px;
+	background-position: right;
+	position: right;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: #DCDCDC;
+	display: table;
 	
+}
