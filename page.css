@@ -1,13 +1,21 @@
-* {
-	width: 120px, 60%;
-	padding: 3px;
-	margin: 2px;
-	background-color: #A9A9A9;
-	color:#000000;
-	text-align: center;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
+* { background-color: #C0C0C0; }
+
+#cadre-renseignements{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#cadre-lives{
+	width: 300px;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cadre-quizz{
+	width: 300px;
+
 }
 
 #Un {
@@ -33,24 +41,23 @@ font-weight: bold;
 
 #Quizz{
 	font-weight: bold;
+	margin-left: 50px;
+	margin-right: 50px;
 	width: 150px;
-	padding-top: 0px;
 	border-radius: 20px;
 	border-style: solid;
 	border-width: 3px;
 	background-color: #DCDCDC;
 
-	
-
-
 }
 	
-
+	
 #Rens{
 	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
 	border-style: solid;
 	width: 150px;
-	padding-top: 0px;
 	border-radius: 20px;
 	border-width: 3px;
 	background-color: #DCDCDC;
@@ -61,6 +68,8 @@ font-weight: bold;
 #fin{
 	font-weight: bold;
 	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
 	width: 150px;
 	padding-top: 0px;
 	background-position: right;
@@ -68,6 +77,5 @@ font-weight: bold;
 	border-radius: 20px;
 	border-width: 3px;
 	background-color: #DCDCDC;
-	display: table;
 	
 }
