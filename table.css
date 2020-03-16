@@ -1,0 +1,56 @@
+.projet{
+	display: table;
+    background-color:black;
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+
+*{
+    background-color:  #bfc9ca;
+    color: black;
+    border-style: dotted;
+    border-color: red;
+}
+
+table{
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div{
+	width: 100%;
+	background-color: black ;
+
+	}
+
+div ul{
+    list-style:none;
+    text-align: right;
+    background-color: black;
+    text-decoration: none;
+}
+div li{
+    background-color:  black;
+    text-decoration: none;
+}
+
+div a{
+    background-color:  black;
+    color:white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 100px;
+}
+body{
+    width: 100%;
+}
+
+
+
+
