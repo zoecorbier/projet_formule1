@@ -23,7 +23,6 @@ $req ->closeCursor();
 }
 
 
-//ICIII APRES LES $_GET c est bon je t entends crier hhhhhh mais cest ce que je t'avais dit dans mon message en plus pardon. bon je m excuse je vais vite aux toilettes donc si je reponds pas c est a cause de ca ok
 
     $MailUtilisateur=$_GET['mail'];
     $NomUtilisateur=$_GET['n'];
@@ -41,8 +40,6 @@ $req ->closeCursor();
 
  if($_GET['mail']!="" && $_GET['n']!="" && $_GET['p']!="" && $_GET['adr']!="" && $_GET['cp']!="" && $_GET['ville']!="" && $_GET['anniversaire']!=""&& $_GET['pays']!="" && $_GET['num']!=""&& $_GET['mdp1']!="" && $_GET['mdp2']!="" && $_GET['mdp2']==$_GET['mdp1']) {
    
-
-//ICI surement l ordre non bien vu
 
      enregistrer($MailUtilisateur,$NomUtilisateur, $PrenomUtilisateur, $AdresseUtilisateur, $CodePostalUtilisateur, $VilleUtilisateur, $PaysUtilisateur, $DateNaissanceUtilisateur, $TelephoneUtilisateur, $mdp);
 
