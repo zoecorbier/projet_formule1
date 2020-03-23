@@ -9,22 +9,22 @@
 *{
     background-color:  #bfc9ca;
     color: black;
-    border-style: dotted;
-    border-color: red;
 }
 
 table{
     background-color: darkgrey;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 
 div{
-	width: 100%;
+	width: 200px;
 	background-color: black ;
-
-	}
+    margin-right: -30px;
+    margin-left: -10px;
+   
+}
 
 div ul{
     list-style:none;
@@ -46,6 +46,9 @@ div a{
 
 h1{
     margin-top: 100px;
+    border-style: outset;
+    margin-right: 900px;
+    text-align: center;
 }
 body{
     width: 100%;

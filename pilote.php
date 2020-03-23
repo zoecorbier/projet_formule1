@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="table.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="../Style/table.css" type="text/css" media="screen" />
         <title>Pilote</title>
         
     </head>
@@ -37,13 +37,11 @@
             
                 while ($ligne = $rep ->fetch() ) { 
 		          echo "<tr>";
-                   
-		          //echo"<th>"<a href="article/".$ligne[nom].".html{" > .$ligne["nom"]. </a>"</th>"
 		          echo "<td>".$ligne["PrenomPilote"]."</td>";
 		          echo "<td>".$ligne["NomPilote"]."</td>";
 		          echo "<td>".$ligne["NaissancePilote"]."</td>";
 		          echo "<td>".$ligne["NationalitéPilote"]."</td>";
-                echo "</tr>";
+                  echo "</tr>";
 		          }
                 $rep ->closeCursor();
                 ?>

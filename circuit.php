@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="table.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="../Style/table.css" type="text/css" media="screen" />
         <title>Pilote</title>
         
     </head>
@@ -24,7 +24,6 @@
 			     <th>Ville</th>
 			     <th>Pays du Circuit</th>
 		      </tr>
-            <tr>
                 <?php
                  $bdd = new PDO('mysql:host=localhost;dbname=Projet_Formule1;charset=utf8', 'root', 'root');
                 $rep = $bdd->query('select * from Circuit');
@@ -40,7 +39,6 @@
 		          }
                 $rep ->closeCursor();
                 ?>
-            </tr>
             
         </table>
     </body>
