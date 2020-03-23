@@ -1,22 +1,52 @@
-* { background-color: #C0C0C0; }
+* { background-color: #BFC9CA; }
 
 #cadre-renseignements{
-	width: 300px;
+	width: 200px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 5%;
+	margin-top: 5%;
+
+}
+
+
+}
+#cadre-quizz{
+	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.bt{
+    background-color: #FFFFFF;
+    margin-top: 1%; 
+    border-radius: 10px;
+    list-style: none;
+    padding:10px;
+    margin-left: 30%;
+	margin-right: 9%;
+	text-align: center;
+}
+	
+
+
+
+
+#cadre-connexion{
+	width: 200px;
+	margin-left: 43%;
+	margin-right: 50%;
+
 
 }
 
 #cadre-lives{
-	width: 300px;
+	width: 200px;
 	float: right;
 	margin-left: auto;
-	margin-right: auto;
-}
-#cadre-quizz{
-	width: 300px;
+	margin-right: 8%;
+{
 
-}
 
 #Un {
 border-width: 5px;
@@ -41,8 +71,8 @@ font-weight: bold;
 
 #Quizz{
 	font-weight: bold;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 150px;
 	border-radius: 20px;
 	border-style: solid;
@@ -51,7 +81,7 @@ font-weight: bold;
 
 }
 	
-	
+
 #Rens{
 	font-weight: bold;
 	margin-left: auto;
