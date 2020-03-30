@@ -2,21 +2,21 @@
 <html>
     <head>
         <link rel="stylesheet" href="../Style/table.css" type="text/css" media="screen" />
-        <title>Pilote</title>
+        <title>Circuit</title>
         
     </head>
     
-    <nav class="projet">
-            <div class="projet">
+    
+    
+    <body>
+	 <div class="projet">
+            
             <ul>
                 <li><a href="pageacceuil.html" style="text-decoration:none">Accueil</a></li>
                 <li><a href="constructeur.php" style="text-decoration:none">Données sur les constructeurs</a></li>
             </ul>
-            </div>
-    </nav>
-    
-    
-    <body>
+            
+        </div>
         <table>
             <h1>Données sur les circuits</h1>
              <tr>
