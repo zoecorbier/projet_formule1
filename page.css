@@ -48,6 +48,28 @@
 	text-align: center;
 }
 	
+.quizz{
+    background-color: #FFFFFF;
+    margin-top: 40%; 
+    border-radius: 10px;
+    list-style: none;
+    padding:10px;
+    margin-left: 30%;
+	margin-right: 9%;
+	text-align: center;
+}
+
+#id1{
+    margin-top: 1%; 
+    list-style: none;
+    margin-left: 10%;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
 
 
 #cadre-connexion{
