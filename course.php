@@ -5,17 +5,17 @@
         <title>Pilote</title>
         
     </head>
-    
-    <nav class="projet">
-            <div class="projet">
-            <ul>
-                <li><a href="pageacceuil.html" style="text-decoration:none">Accueil</a></li>
-                <li><a href="pilote.php" style="text-decoration:none">Données sur les pilotes</a></li>
-            </ul>
-            </div>
-    </nav>
+ 
     
     <body>
+	<div class="projet">
+            
+            <ul>
+               <li><a href="pageacceuil.html" style="text-decoration:none">Accueil</a></li>
+                <li><a href="pilote.php" style="text-decoration:none">Données sur les pilotes</a></li>
+            </ul>
+            
+        </div>
         <h1>Données sur les courses</h1>
         <table>
              <tr>
