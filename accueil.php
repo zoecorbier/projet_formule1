@@ -6,30 +6,28 @@
 <!DOCTYPE html>
  <html>
  	<head>
- 	<link rel="stylesheet" href="../projet/page.css"
- type="text/css" media="screen" />
+ 	<link rel="stylesheet" href="../projet/page.css"type="text/css" media="screen" />
  		<title> Acceuil </title>
  	</head>
  	<body>
- 		<br><h2> FORMULE 1 </h2></br>
+ 		<br><h2> FORMULE 1 </h2>
 
  		<div id="cadre-quizz">
  		<center>
- 		<p id="Quizz"> <br> Renseignements </p></br>
+ 		<p id="Quizz"> Renseignements </p>
  		</center>
+        <br>
  		<center>
- 		<a href="http://google.fr"> <img src="loupe.png"></a>
+ 		<a href="http://google.fr"><img src="loupe.png"></a>
  		</center>
  		</div>
 
 <?php if(!isset($_SESSION['utilisateur'])){ ?>
  		<div id="cadre-renseignements">
-
  		<center>
- 		<p id="Rens"><br> <a href="../projet/connexion1.php">
-            Se connecter </a> </p></br>
+ 		<p id="Rens"><a href="../projet/connexion1.php">Se connecter </a> </p>
  		</center>
-
+        <br>
  		<center>
  		<a href="http://google.fr"> <img src="ordinateur.png"></a>
  		</center>
@@ -38,7 +36,7 @@
  		<div id="cadre-lives">
  		<center>
  		<p id="fin"><br><a href="../projet/new.php">
-            Inscription </a></p></br>
+            Inscription </a></p>
  		</center>
  		<center>
  		<a href="http://google.fr"> <img src="bonhomme.png"></a>
@@ -57,4 +55,4 @@
 
 
  	</body>
- </html>  
+ </html> 
