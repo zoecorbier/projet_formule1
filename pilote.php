@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../style/pages.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="../style/pagesdeux.css" type="text/css" media="screen" />
         <title>Pilote</title>
         
     </head>
