@@ -25,6 +25,8 @@
 	
 
 	<form method="get" action="//la page où on enregistre les données//" autocomplete="off"/>
+	 <?php
+                 $bdd = new PDO('mysql:host=localhost;dbname=Projet_Formule1;charset=utf8', 'root', 'root');
 				
 
 				<p id="id1">  
@@ -60,6 +62,7 @@
 					Question 10:
 					<INPUT type="text" name="q10" value='Quel constructeur a gagné la course <?php echo rand(idCourse)?> sur le pilote    <?php echo rand(idPilote)?>'/>
 				</p>
+				 ?>
 				
 			</form>
 		
