@@ -47,6 +47,7 @@
 		          echo "<td>".$ligne["NationalitéPilote"]."</td>";
                   echo "</tr>";
 		          }
+		
                 $rep ->closeCursor();
                 ?>
             
