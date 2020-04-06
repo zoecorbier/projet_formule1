@@ -25,7 +25,7 @@
 				</div>
 	
 
-	<form method="get" action="//la page où on enregistre les données//" autocomplete="off"/>
+	<form method="get" action="../projet/resultat.php" autocomplete="off"/>
 	 
                  
 				
