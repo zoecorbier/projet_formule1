@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../style/pagesdeux.css" type="text/css" media="screen" />
-	    <title>Pilote</title>
+         <link rel="stylesheet" href="page.css" type="text/css" media="screen" />media="screen" />
+	    <title>Course</title>
         
     </head>
  
     
     <body>
         <div class="projet">
-            <img class="imgpres" src="../images/f1deux.jpg">
+            <img class="imgpres" height='100' width='100'src="image.png">
             <p id="titre">Formule 1</p>
             
             <ul>
-                <li id="co"><a href="../identifification/connexion1.php">Se connecter</a></li>
-                <li><a href="../identifification/enregistrement1.php">Créer un compte</a></li>
-                <li><a href="../index.php">Acceuil</a></li>
+                <li id="co"><a href="../projet/connexion1.php">Se connecter</a></li>
+                <li><a href="../projet/new.php">Créer un compte</a></li>
+                <li><a href="index.php">Accueil</a></li>
             </ul>
         </div>
         
@@ -25,10 +25,10 @@
 			     <th>Nom</th>
 			     <th>Date</th>
 			     <th>Année</th>
-			     <th>Temps de la course</th>
+			     <th>Durée de la course</th>
 		      </tr>
                 <?php
-                 $bdd = new PDO('mysql:host=localhost;dbname=Projet_Formule1;charset=utf8', 'root', 'root');
+                 $bdd = new PDO('mysql:host=localhost;dbname=Projet;charset=utf8', 'root', 'root');
                 $rep = $bdd->query('select * from Course');
                 
                 $ligne = $rep->fetch();
