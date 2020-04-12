@@ -1,0 +1,164 @@
+* { background-color: #BFC9CA; }
+
+
+input{
+	margin right: 60px
+	margin-left 50px;
+}
+
+#cadre-renseignements{
+	width: 200px;
+	margin-left: auto;
+	margin-right: 5%;
+	margin-top: 5%;
+
+}
+
+
+
+#cadre-quizz{
+	width: 200px;
+	margin-left: 43%;
+	margin-right: 50%;
+}
+
+#lequizz{
+	width: 200px;
+	float: left;
+	margin-top: 30%;
+}
+
+#toto{
+	width: 200px;
+
+}
+
+#mama{
+	width: 200px;
+	float: right;
+	margin-top: 50%;
+
+
+
+}
+
+
+.bt{
+    background-color: #FFFFFF;
+    margin-top: 1%; 
+    border-radius: 10px;
+    list-style: none;
+    padding:10px;
+    margin-left: 30%;
+	margin-right: 9%;
+	text-align: center;
+}
+	
+.quizz{
+    background-color: #FFFFFF;
+    margin-top: 40%; 
+    border-radius: 10px;
+    list-style: none;
+    padding:10px;
+    margin-left: 10%;
+	margin-right: auto;
+	text-align: center;
+}
+
+#id1{
+    margin-top: 1%; 
+    list-style: none;
+    margin-left: 10%;
+	margin-right: 60%;
+	text-align: center;
+}
+
+
+
+
+
+
+#cadre-connexion{
+	width: 200px;
+	margin-left: 40%;
+	margin-right: 80%;
+
+
+}
+
+#cadre-lequizz{
+	width: 200px;
+	margin-left: 5%;
+	margin-right: 10%;
+
+
+}
+#cadre-lives{
+	width: 200px;
+	float: right;
+	margin-left: auto;
+	margin-right: 10%;
+{
+
+
+#Un{
+border-width: 5px;
+border-style: solid;
+color: #00FFFF;
+text-transform: capitalize;
+font-weight: bold;
+
+}
+
+#Deux{
+	border-width: 1px;
+	text-align: right;
+	color: #00FFFF;
+	border-style: inset;
+	
+}
+
+#Trois{
+	width: 100px, 50%;
+}
+
+#Quizz{
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: #DCDCDC;
+
+}
+	
+
+#Rens{
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	width: 150px;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: #DCDCDC;
+	
+	
+}
+
+#fin{
+	font-weight: bold;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	padding-top: 0px;
+	background-position: right;
+	position: right;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: #DCDCDC;
+	
+}
