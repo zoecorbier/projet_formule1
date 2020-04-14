@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset ="UTF-8"/>
+	<link rel="stylesheet" href="../style/pages.css" type="text/css" media="screen" />
         <title> Inscription </title> 
     </head>
     <body>
