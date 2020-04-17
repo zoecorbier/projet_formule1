@@ -1,8 +1,10 @@
-<!DOCTYPE html>
 <html>
 <title>Formulaire</title> 
 
-<head>
+ <head>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+     </head>
+<body>
 
 <?php
 
@@ -30,7 +32,12 @@
     VALUES ('".$MailUtilisateur."', '".$NomUtilisateur."', '".$PrenomUtilisateur."', '".$AdresseUtilisateur."',".$CodePostalUtilisateur.",'".$VilleUtilisateur."','".$PaysUtilisateur."','".$DateNaissanceUtilisateur."',".$TelephoneUtilisateur.",'".$mdp."')";
 
     $bdd = new PDO('mysql:host=localhost;dbname=projet;charset=utf8', 'root','root');
+
+    
     $bdd-> query ($req);
+
+
+
     echo "<meta http-equiv='refresh' content='2; URL=index.php'>";
     
     //$req ->closeCursor();
@@ -49,13 +56,20 @@
     $mdp=$_GET['mdp1'];
 
 
+
+    
+
  if($_GET['mail']!="" && $_GET['n']!="" && $_GET['p']!="" && $_GET['adr']!="" && $_GET['cp']!="" && $_GET['ville']!="" && $_GET['anniversaire']!=""&& 
     $_GET['pays']!="" && $_GET['num']!=""&& $_GET['mdp1']!="" && $_GET['mdp2']!="" && $_GET['mdp2']==$_GET['mdp1']) 
   {   
+    
+
      enregistrer($MailUtilisateur,$NomUtilisateur, $PrenomUtilisateur, $AdresseUtilisateur, $CodePostalUtilisateur, $VilleUtilisateur, $PaysUtilisateur, $DateNaissanceUtilisateur, $TelephoneUtilisateur, $mdp);
     }
 
 else{
+
+    // erreur vaut $err='mdp'
 
 $err='mdp';
 
@@ -67,8 +81,10 @@ $err='mdp';
     $DateNaissanceUtilisateur&pays=$PaysUtilisateur
     &num=$TelephoneUtilisateur&erreur=$err'>"; 
 }
+
+
 ?>
 
-</head>
+<body>
 
 </html>    
