@@ -1,0 +1,134 @@
+.bt{
+    background-color: black;
+    margin-top: auto; 
+    border-radius: 10px;
+    list-style: none;
+    padding:10px;
+    float: right;
+	text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+	
+    
+.projet{
+	display: table;
+    background-color:grey;
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+
+table, td{
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #F6F6F5;
+    opacity: 0.9;
+}
+
+
+div{
+	width: 200px;
+	background-color: black ;
+    margin-right: -30px;
+    margin-left: -10px;
+   
+}
+
+div ul{
+    list-style:none;
+    text-align: right;
+    background-color: black;
+    text-decoration: none;
+}
+div li{
+    background-color:  black;
+    text-decoration: none;
+}
+
+div a{
+    background-color:  black;
+    color:white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+h1{
+    border-style: outset;
+    text-align: center;
+}
+
+#titre{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Marker Felt;
+}
+.imgpres{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#co{
+    margin-top: -80px;
+}
+
+#presentation{
+    margin-top: 125px;
+    border-style: outset;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: large;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: underline;
+    color: blue;
+}
+
+#exemple{
+    border-style: outset;
+    margin-right: 1175px;
+
+}
+
+.menustat{
+    background-color:#F2F0EF;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: large;
+    
+}
+
+nav a{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    list-style: none;
+    padding:10px;
+    
+}
+
+.grandmenustat{
+    background-color: #F2F0EF;
+    margin-top: 300px;
+    
+}
+body{
+    background-image:url(logo1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    width: 100%;
+}

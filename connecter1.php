@@ -25,7 +25,7 @@ else{
 
 	$_SESSION['utilisateur']=array('MailUtilisateur'=>$informations['MailUtilisateur'],
 		'NomUtilisateur'=>$informations['NomUtilisateur'],
-		'PreomUtilisateur'=>$informations['PreomUtilisateur'],
+		'PrenomUtilisateur'=>$informations['PrenomUtilisateur'],
 		'AdresseUtilisateur'=>$informations['AdresseUtilisateur'],
 		'CodePostalUtilisateur'=>$informations['CodePostalUtilisateur'],
 		'PaysUtilisateur'=>$informations['PaysUtilisateur'],
@@ -34,7 +34,7 @@ else{
 		'mdp'=>$informations['mdp']);
 
 
-	echo "<meta http-equiv='refresh' content='2; URL=accueil.php'>";
+	echo "<meta http-equiv='refresh' content='2; URL=index.php'>";
 
 }
 

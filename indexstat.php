@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="page.css" type="text/css" media="screen" />
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    </head>
-    
-    <body>
-        <div class="projet">
-            <img class="imgpres" height='100' width='100'src="image.png">
-            <p id="titre">Formule 1</p>
-            
-            <ul>
-                <li id="co"><a href="../projet/connexion1.php">Se connecter</a></li>
-                <li><a href="../projet/new.php">Créer un compte</a></li>
-                <li><a href="index.php">Accueil</a></li>
-            </ul>
-        </div>
-        
-        <nav class="grandmenustat">
+<?php require('header.php');?>
+    <a href="index.php" > <<- Page précédente</a> 
+        <nav class="grandmenustat" style=" opacity: 0.8;">
             <nav class="menustat">
                 <a href="pilote.php">Données sur les pilotes</a>
             </nav>
@@ -31,11 +14,7 @@
                 <a href="course.php">Données sur les courses</a>
             </nav>
         </nav>
-
         
         
     </body>
-
-
-
 </html>
