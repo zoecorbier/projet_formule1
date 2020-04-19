@@ -13,8 +13,9 @@
      </head>
 
      <body>
-<h1> Inscription</h1>
+<h1> Connexion </h1>
 
+	     <br> <br> <br>
 <?php?>
 <form method="POST" action="connecter1.php" autocomplete="off" > 
 	</p> 
