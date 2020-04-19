@@ -15,7 +15,8 @@
      <body>
 <h1> Connexion </h1>
 
-	     <br> <br> <br>
+	     <center>
+<br> <br> <br><br>
 <?php?>
 <form method="POST" action="connecter1.php" autocomplete="off" > 
 	</p> 
